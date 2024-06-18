@@ -50,18 +50,15 @@
   - [7.6 Mergesort](#76-mergesort)
     - [Implementation](#implementation-2)
 - [Graphs:](#graphs)
-<<<<<<< HEAD
   - [9.3 Shortest-Path Algorithms](#93-shortest-path-algorithms)
     - [Unweighted Graphs](#unweighted-graphs)
       - [Implementation (Pseudocode):](#implementation-pseudocode)
       - [Implemenntation (Pseudocode, using queue)](#implemenntation-pseudocode-using-queue)
     - [Dijkstra's Algorithm](#dijkstras-algorithm)
       - [Implementation (Psuedocode)](#implementation-psuedocode)
-=======
     - [Graph Traversal](#graph-traversal)
       - [Depth-first Algorithm](#depth-first-algorithm)
       - [Breadith-First Algorithm](#breadith-first-algorithm)
->>>>>>> 8aba1b9b89978773fe8f07bb8136ca561271ba53
 
 
 # Chapter 3: Lists, Stacks, and Queues
@@ -673,7 +670,6 @@ void mergeSort( vector<Comparable> & a ) {
   - a graph that does not contain self-loops or parallel edges is said to be a **simple graph**
   - For a simple graph, we can say that the edges are a set of vertex pairs (and not just a collection)
 
-<<<<<<< HEAD
 <img src="img/2021-11-25-15-40-43.png" style="width: 500px">
 
 ### Graph Traversal
@@ -743,12 +739,8 @@ void Digraph<max_size>::breadth_first(void (*visit)(Vertex &)) const {
     }
   }
 }
-```
-=======
-<img src="img/2021-11-25-15-40-43.png" style="width: 600px">
 <img src="img/2021-11-25-15-42-08.png" style="width: 600px">
 
-<<<<<<< HEAD
 <hr>
 
 ## 9.3 Shortest-Path Algorithms
@@ -859,6 +851,4 @@ Algorithm ShortestPath( G, v):
   return the label D[u] of each vertex u.
   
 ```
-=======
->>>>>>> 01e62a4aee3f46b68758f36711018e9d8f220126
->>>>>>> 8aba1b9b89978773fe8f07bb8136ca561271ba53
+
